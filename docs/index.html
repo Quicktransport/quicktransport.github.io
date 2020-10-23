@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fast and Efficient Car Transport And Recovery Services.">
+  <meta name="keywords" content="Vehicle, Transport, Cars">
+  <meta name="author" content="http://kernel-box.com">
+  <meta name="robots" content="index, follow">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name="twitter:card" content="product">
+  <meta name="twitter:site" content="https://quicktransport.co.uk">
+  <meta name="twitter:title" content="Transport and recover your vehicles with QuickTransport.">
+  <meta name="twitter:description"
+    content="Fast and Efficient Car Transport And Recovery Services.">
+  <meta name="twitter:image" content="https://quicktransport.co.uk/assets/freeway.jpg">
+  <meta name="twitter:label1" content="Vehicle Types">
+  <meta name="twitter:data1" content="Any">
+
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="Quick Transport">
+  <meta property="og:url" content="https://quicktransport.co.uk">
+  <meta property="og:image" content="https://quicktransport.co.uk/assets/freeway.jpg">
+  <meta property="business:contact_data:street_address" content="N/A">
+  <meta property="business:contact_data:locality" content="London">
+  <meta property="business:contact_data:region" content="N/A">
+  <meta property="business:contact_data:postal_code" content="N/A">
+  <meta property="business:contact_data:country_name" content="United Kingdom">
+
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Quick Transport</title>
+</head>
+
+<body class="text-white">
+  <div id="main" class="flex flex-col text-center">
+    <div class="m-auto">
+      <h1 class="text-4xl font-bold lg:text-6xl">Quick Transport</h1>
+      <h2 class="text-md font-medium lg:text-2xl">Fast and Efficient Car Transport And Recovery Services</h2>
+      <p class="px-2 mt-12 lg:mx-auto lg:w-1/2"><span class="font-bold lg:text-lg">Quick Transport</span> is an
+        established
+        local business in London and Essex that offers a
+        fast and secure service for
+        all
+        types of vehicles. We pride ourselves on providing reliable and secure car transportation. We also provide car
+        recovery/breakdown services 24 hours a day, 7 days a week, 365 days a year. We can take you and your vehicle
+        anywhere in the UK.
+        We aim to reach you as soon as possible but usually within 45 minutes from the time you book our services. Call
+        us
+        now for our emergency assistance and you will be met by one of our mechanics to get you back on the road
+      </p>
+    </div>
+    <div class="flex mb-auto md:w-1/2 md:mx-auto">
+      <a href="#form" class="mx-2 bg-blue-700 p-3 rounded-lg w-1/2">Get Contacted</a>
+      <a href="#services" class="mx-2 bg-blue-700 p-3 rounded-lg w-1/2">Services</a>
+    </div>
+    <a class="bg-blue-800 p-2 cursor-pointer" href="tel:+4407955771102">Call Us +4407955771102</a>
+  </div>
+  <div id="form" class="lg:w-1/2 lg:mx-auto">
+    <h2 class="text-black text-center my-6 text-xl lg:text-2xl">Fill the form below and we will get in touch with you
+      within
+      seconds.</h2>
+    <form id="userForm" class="my-12 text-black flex flex-wrap w-8/12 m-auto">
+      <div class="flex flex-col w-full">
+        <label for="fromPostCode" class="font-medium mt-6">Pickup Postal Code</label>
+        <input id="fromPostCode" type="text"
+          class="border-2 border-blue-700 uppercase rounded-lg p-2 mb-2 focus:outline-none focus:border-blue-400"
+          required>
+      </div>
+      <div class="flex flex-col w-full">
+        <label for="toPostCode" class="font-medium mt-6">Destination Postal Code</label>
+        <input id="toPostCode" type="text"
+          class="border-2 border-blue-700 uppercase rounded-lg p-2 mb-2 focus:outline-none focus:border-blue-400"
+          required>
+      </div>
+      <label for="contactName" class="font-medium mt-6">Contact Name</label>
+      <input id="contactName" type="text"
+        class="border-2 border-blue-700 uppercase rounded-lg p-2 w-full mb-2 focus:outline-none focus:border-blue-400"
+        required>
+      <label for="contactNumber" class="font-medium mt-6">Contact Number</label>
+      <input id="contactNumber" type="text"
+        class="border-2 border-blue-700 uppercase rounded-lg p-2 w-full mb-2 focus:outline-none focus:border-blue-400"
+        required>
+      <button id="submit" class="m-auto mt-6 p-2 w-full rounded text-white mt-2 bg-blue-700">Submit</button>
+      <div id="status" class="m-auto mt-4 text-lg font-bold"></div>
+    </form>
+  </div>
+  <div id="info" class="p-4 bg-gray-400 bg-opacity-25 text-black text-center">
+    <h2 class="my-6 lg:w-4/6 lg:mx-auto">At Quick Transport we pride ourselves in working with other trade
+      companies who require fast and efficient
+      service. We also offer trade discount to repeat trade customers, and our services cost from only £1.50 per mile.
+      To get a call back please fill in the form provided alternatively give us a call ONLY if it’s an emergency.</h2>
+    <div id="services" class="lg:w-1/2 lg:mx-auto mt-6">
+      <h2 class="text-2xl w-full bg-blue-500 text-white p-2">Our Services</h2>
+      <ul class="w-11/12 m-auto my-4 text-center">
+        <li class="my-12">Accident Recovery (Local, Nationwide, Europe)
+        </li>
+        <li class="my-12">Transportation of Vehicles
+        </li>
+        <li class="my-12">Local & Long Distance Breakdown Recovery
+        </li>
+        <li class="my-12">Jumpstarts / Starting Issues
+        </li>
+        <li class="my-12">Wheel Change
+        </li>
+        <li class="my-12">Salvage Accident Damage Vehicle Collection
+        </li>
+        <li class="my-12">Collection of vehicles from auction sites
+        </li>
+        <li class="my-12">Full winch facilities for non-runner vehicle collection
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="auctions" class="px-4 my-24 lg:w-1/2 lg:mx-auto">
+    <p class="text-2xl bg-blue-500 text-white p-2 text-center">Auctions We Visit Regularly</p>
+    <ul class="w-11/12 m-auto my-4 text-center lg:flex">
+      <li class="mt-12 w-32 mx-auto"><img src="./assets/bca.png" alt="BCA"></li>
+      <li class="mt-12 w-32 mx-auto"><img src="./assets/copart.png" alt="copart"></li>
+      <li class="mt-12 w-32 mx-auto"><img src="./assets/manheim.png" alt="manheim"></li>
+      <li class="mt-12 w-32 mx-auto"><img src="./assets/raw2k.png" alt="raw2k"></li>
+    </ul>
+  </div>
+  <footer class="bg-blue-700 text-center p-4">&#169; Quick Transport 2020</footer>
+</body>
+
+</html>
