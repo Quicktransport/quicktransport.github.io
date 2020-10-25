@@ -7,6 +7,7 @@ const init = function () {
 const submit = function (e) {
   let fromPostCode = document.getElementById("fromPostCode").value;
   let toPostCode = document.getElementById("toPostCode").value;
+  let vehicleReg = document.getElementById("vehicleReg").value;
   let contactName = document.getElementById("contactName").value;
   let contactNumber = document.getElementById("contactNumber").value;
 
@@ -16,6 +17,7 @@ const submit = function (e) {
     subject: `Vehicle Transport From ${fromPostCode.toUpperCase()} To ${toPostCode.toUpperCase()}`,
     fromPostCode,
     toPostCode,
+    vehicleReg,
     contactName,
     contactNumber
   });

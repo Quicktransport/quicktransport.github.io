@@ -13,6 +13,7 @@ exports.quote = async (req, res, _next) => {
     subject,
     fromPostCode,
     toPostCode,
+    vehicleReg,
     contactName,
     contactNumber
   } = req.body;
@@ -24,6 +25,7 @@ exports.quote = async (req, res, _next) => {
     text: `
       From Postal Code: ${fromPostCode}\n
       To Postal Code: ${toPostCode}\n
+      Vehicle Registration: ${vehicleReg ? vehicleReg : "None provided"}\n
       Contact Name: ${contactName}\n
       Contact Number: ${contactNumber}\n
       `
