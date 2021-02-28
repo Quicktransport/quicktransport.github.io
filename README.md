@@ -1,4 +1,4 @@
-# quicktransport.github.io
+# quiktransport.github.io
  
 Setting up heroku
 
