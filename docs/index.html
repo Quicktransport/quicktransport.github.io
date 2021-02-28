@@ -36,15 +36,6 @@
   <link rel="stylesheet" href="style.css">
   <script src="index.js"></script>
   <title>Quick Transport</title>
-  <!-- Global site tag (gtag.js) - Google Ads: 514803431 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-514803431"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'AW-514803431');
-  </script>
 </head>
 
 <body class="text-white">
@@ -145,7 +136,6 @@
     try {
       var set_int=setInterval(function(){
         if(document.querySelector('#status').innerText=="Submitted successfully. Thank you!"){
-          gtag('event', 'conversion', {'send_to': 'AW-514803431/6m_FCOuSh-YBEOeNvfUB'});
           clearInterval(set_int);
         }
       },1000);
