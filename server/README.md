@@ -1,4 +1,4 @@
-# quiktransport
+# quiktransport.github.io
  
 Setting up heroku
 
@@ -13,4 +13,4 @@ Add the following Config Vars
     ORIGIN_URL https://quiktransport.co.uk
     API_KEY "SEND GRID API KEY"
     TO_EMAIL "EMAIL TO SEND TO"
-    FROM_EMAIL quiktransportrecovery@outlook.com
+    FROM_EMAIL quote@quiktransport.co.uk - can be anything but it must include the domain of the website
