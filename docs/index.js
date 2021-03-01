@@ -37,7 +37,7 @@ const submit = function (e) {
     body
   };
 
-  fetch(`https://quicktransport.herokuapp.com/api/v1/mail/quote`, options)
+  fetch(`https://quiktransport.herokuapp.com/api/v1/mail/quote`, options)
     .then((res) => res.json() || res)
     .then((data) => {
       if (data.success) {
